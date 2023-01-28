@@ -30,3 +30,7 @@ Client_2 – віртуальна машина, на якій розгорнут
 Адреса мережі Net4 – 172.16.16.0/24
 1. На Server_1 налаштувати статичні адреси на всіх інтерфейсах.
 ![Screenshot from 2023-01-28 16-59-17](https://user-images.githubusercontent.com/102302310/215274106-d483a363-e716-4fc2-befc-f9ed9c830de9.png)
+![Screenshot from 2023-01-28 17-00-22](https://user-images.githubusercontent.com/102302310/215274333-2889280a-aa6c-4b46-ae10-308fac89be47.png)
+
+2. На Server_1 налаштувати DHCP сервіс, який буде конфігурувати адреси Int1 
+Client_1 та Client_2
