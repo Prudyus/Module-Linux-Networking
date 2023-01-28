@@ -29,5 +29,4 @@ Client_2 – віртуальна машина, на якій розгорнут
 Адреса мережі Net3 – 10.7.94.0/24, 
 Адреса мережі Net4 – 172.16.16.0/24
 1. На Server_1 налаштувати статичні адреси на всіх інтерфейсах.
-![Uploading Screenshot from 2023-01-28 16-59-17.png…]()
-![Uploading Screenshot from 2023-01-28 17-00-22.png…]()
+![Screenshot from 2023-01-28 16-59-17](https://user-images.githubusercontent.com/102302310/215274106-d483a363-e716-4fc2-befc-f9ed9c830de9.png)
