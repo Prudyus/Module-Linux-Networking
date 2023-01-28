@@ -1,5 +1,11 @@
 # Module-Linux-Networking
 EPAM University Programs DevOps external course Module – Linux Networking
+
+Server_1 – Віртуальна машина, на якій розгорнуто ОС Linux. Int1 цієї машини в 
+режимі «Мережевий міст» підключений до мережі Net1, тобто знаходиться в адресному 
+просторі домашньої мережі. IP-адреса Int1 встановлюється статично відповідно до 
+адресного простору. Інтерфейси Int2 та Int3 відповідно 
+підключено в режимі «Внутрішня мережа» до мереж Net2 та Net3.
 ![Снимок экрана (448)](https://user-images.githubusercontent.com/102302310/215271673-9657b562-1299-4046-bfbf-94a6bae76c3d.png)
 ![enp0s3](https://user-images.githubusercontent.com/102302310/215272209-e53e4cfc-ce33-4cd6-a182-02297c26c903.jpg)
 ![net2](https://user-images.githubusercontent.com/102302310/215272217-d10596da-a290-4361-90ba-2c87e83c4f84.jpg)
