@@ -36,3 +36,6 @@ Client_2 – віртуальна машина, на якій розгорнут
 Client_1 та Client_2
 
 ![Screenshot from 2023-01-28 17-18-55](https://user-images.githubusercontent.com/102302310/215274522-c652ccd5-56db-43bc-95b7-b8fefa75709e.png)
+
+3. За допомогою команд ping та traceroute перевірити зв'язок між віртуальними 
+машинами. Результат пояснити. 
