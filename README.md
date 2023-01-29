@@ -35,7 +35,12 @@ Client_2 – віртуальна машина, на якій розгорнут
 2. На Server_1 налаштувати DHCP сервіс, який буде конфігурувати адреси Int1 
 Client_1 та Client_2
 
-![Screenshot from 2023-01-28 17-18-55](https://user-images.githubusercontent.com/102302310/215274522-c652ccd5-56db-43bc-95b7-b8fefa75709e.png)
+![dhcp](https://user-images.githubusercontent.com/102302310/215354620-06582c63-5ce3-47da-9517-7fe45bb7d8b3.png)
 
 3. За допомогою команд ping та traceroute перевірити зв'язок між віртуальними 
 машинами. Результат пояснити. 
+
+ Server1 > Client1
+![ping  Server1 to Client1](https://user-images.githubusercontent.com/102302310/215354394-e531b48a-6745-487d-a5b6-32661dfb18d2.png)
+ Server1 > Client 2
+![ping Server1 to Client2](https://user-images.githubusercontent.com/102302310/215354387-e8ea25bf-83a9-4b2a-ab79-0f6ce806e505.png)
