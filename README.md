@@ -51,3 +51,15 @@ Client1 > Client2
 traceroute Client1 > Client2
 ![traceroute Client1  to  Client2](https://user-images.githubusercontent.com/102302310/215355237-e3d5debb-cf7e-4924-84c8-c3939644342b.png)
 ![tracerout  Client1 to Client2](https://user-images.githubusercontent.com/102302310/215355239-745dc3f8-6558-4a1d-99a4-38c28eb1551d.png)
+
+4. На віртуальному інтерфейсу lo Client_1 призначити дві ІР адреси за таким 
+правилом: 172.17.D+10.1/24 та 172.17.D+20.1/24. Налаштувати маршрутизацію 
+таким чином, щоб трафік з Client_2 до 172.17.D+10.1 проходив через Server_1, а до 
+172.17.D+20.1 через Net4. Для перевірки використати traceroute.
+
+172.17.26.1/24
+172.17.36.1/24 
+
+Client2 > 172.17.26.1 ( through Server1 )
+
+Client2 > 172.17.36.1 ( through Net 4 )
