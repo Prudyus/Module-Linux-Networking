@@ -38,9 +38,16 @@ Client_1 та Client_2
 ![dhcp](https://user-images.githubusercontent.com/102302310/215354620-06582c63-5ce3-47da-9517-7fe45bb7d8b3.png)
 
 3. За допомогою команд ping та traceroute перевірити зв'язок між віртуальними 
-машинами. Результат пояснити. 
+машинами.  
 
  Server1 > Client1
 ![ping  Server1 to Client1](https://user-images.githubusercontent.com/102302310/215354394-e531b48a-6745-487d-a5b6-32661dfb18d2.png)
  Server1 > Client 2
 ![ping Server1 to Client2](https://user-images.githubusercontent.com/102302310/215354387-e8ea25bf-83a9-4b2a-ab79-0f6ce806e505.png)
+
+Client1 > Client2
+![ping  Client1  to Client2 ](https://user-images.githubusercontent.com/102302310/215355240-3e91ad35-95c1-4a57-bb05-7f6fdc4d7532.png)
+
+traceroute Client1 > Client2
+![traceroute Client1  to  Client2](https://user-images.githubusercontent.com/102302310/215355237-e3d5debb-cf7e-4924-84c8-c3939644342b.png)
+![tracerout  Client1 to Client2](https://user-images.githubusercontent.com/102302310/215355239-745dc3f8-6558-4a1d-99a4-38c28eb1551d.png)
