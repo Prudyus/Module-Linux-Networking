@@ -63,3 +63,6 @@ traceroute Client1 > Client2
 Client2 > 172.17.26.1 ( through Server1 )
 
 Client2 > 172.17.36.1 ( through Net 4 )
+![172 17 36 1 cat](https://user-images.githubusercontent.com/102302310/215365663-85a572a5-a969-4766-ac3b-367a0b8dd378.jpg)
+
+![172 36 1 1](https://user-images.githubusercontent.com/102302310/215365694-8a0c1825-64fc-45b7-883f-5edaa06f240e.jpg)
