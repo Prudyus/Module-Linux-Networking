@@ -56,13 +56,14 @@ traceroute Client1 > Client2
 правилом: 172.17.D+10.1/24 та 172.17.D+20.1/24. Налаштувати маршрутизацію 
 таким чином, щоб трафік з Client_2 до 172.17.D+10.1 проходив через Server_1, а до 
 172.17.D+20.1 через Net4. Для перевірки використати traceroute.
-
+D=16
 172.17.26.1/24
 172.17.36.1/24 
 
-Client2 > 172.17.26.1 ( through Server1 )
+Client2 > 172.17.26.1 (через Server1 )
+ 
+![172](https://user-images.githubusercontent.com/102302310/215370330-109dba59-32a3-4792-9afb-c3f14d70c6a1.jpg)
 
-Client2 > 172.17.36.1 ( through Net 4 )
+Client2 > 172.17.36.1 ( через  Net 4 )
 ![172 17 36 1 cat](https://user-images.githubusercontent.com/102302310/215365663-85a572a5-a969-4766-ac3b-367a0b8dd378.jpg)
-
 ![172 36 1 1](https://user-images.githubusercontent.com/102302310/215365694-8a0c1825-64fc-45b7-883f-5edaa06f240e.jpg)
