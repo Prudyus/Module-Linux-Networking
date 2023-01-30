@@ -96,6 +96,7 @@ ___________________________________________________
 6. Налаштувати SSH сервіс таким чином, щоб Client_1 та Client_2 могли підключатись до Server_1 та один до одного.
 
 Client1 > Server1 
+![SSH CL1 to SERVER1](https://user-images.githubusercontent.com/102302310/215547901-9c1c98e1-0f85-4d48-9d04-7531a67425cc.png)
 
 Client2 > Server1
 ![2 to  s1](https://user-images.githubusercontent.com/102302310/215537703-a09834a0-92c7-42c6-8314-6db7166583bc.jpg)
