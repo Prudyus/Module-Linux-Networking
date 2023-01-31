@@ -116,5 +116,7 @@ Client2 > Client1
 ![7task](https://user-images.githubusercontent.com/102302310/215630590-1e8d5c25-58b8-42c5-9b42-5e513deca509.jpg)
 ![111111](https://user-images.githubusercontent.com/102302310/215631434-5a0e3967-b7db-4052-9634-4377f382b4bd.jpg)
 
-• З Client_2 на 172.17.D+10.1 ping проходив, а на 172.17.D+20.1 не проходив
-
+• З Client_2 на 172.17.26.1 ping проходив, а на 172.17.36.1 не проходив
+![ping input 172 17 0 0](https://user-images.githubusercontent.com/102302310/215633761-b28890ee-1ce4-42ae-96e1-45dd3fd2f3d5.jpg)
+![iptables](https://user-images.githubusercontent.com/102302310/215634466-86843776-8c81-4c70-898f-8d3dfafe171c.jpg)
+![iptables2](https://user-images.githubusercontent.com/102302310/215634470-408380a8-4d74-4f70-80ef-3c1390b9ab12.jpg)
