@@ -108,3 +108,13 @@ Client2 > Server1
 Client2 > Client1 
 
 ![2  to  1](https://user-images.githubusercontent.com/102302310/215594984-5a027f51-dcea-4260-b3bc-e2dcb85353a5.jpg)
+
+7. Налаштуйте на Server_1 firewall таким чином:
+• Дозволено підключатись через SSH з Client_1 та заборонено з Client_2
+
+![71](https://user-images.githubusercontent.com/102302310/215630857-632827ab-4af7-415a-8860-6efa65589dd4.jpg)
+![7task](https://user-images.githubusercontent.com/102302310/215630590-1e8d5c25-58b8-42c5-9b42-5e513deca509.jpg)
+![111111](https://user-images.githubusercontent.com/102302310/215631434-5a0e3967-b7db-4052-9634-4377f382b4bd.jpg)
+
+• З Client_2 на 172.17.D+10.1 ping проходив, а на 172.17.D+20.1 не проходив
+
