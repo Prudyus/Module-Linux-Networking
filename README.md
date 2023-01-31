@@ -59,6 +59,7 @@ traceroute Client1 > Client2
 D=16
 
 172.17.26.1/24
+
 172.17.36.1/24 
 
 Client2 > 172.17.26.1 (через Server1 )
@@ -120,3 +121,8 @@ Client2 > Client1
 ![ping input 172 17 0 0](https://user-images.githubusercontent.com/102302310/215633761-b28890ee-1ce4-42ae-96e1-45dd3fd2f3d5.jpg)
 ![iptables](https://user-images.githubusercontent.com/102302310/215634466-86843776-8c81-4c70-898f-8d3dfafe171c.jpg)
 ![iptables2](https://user-images.githubusercontent.com/102302310/215634470-408380a8-4d74-4f70-80ef-3c1390b9ab12.jpg)
+
+8. На Server1 налаштувати NATсервіс таким чином, щоб з Client1 та Client2 проходив ping в мережу Інтернет
+![1](https://user-images.githubusercontent.com/102302310/215639969-dd107018-dedd-405a-8691-41ad830800ec.jpg)
+![2](https://user-images.githubusercontent.com/102302310/215639975-2ea843f2-66e4-40ed-833a-5e4a05b91461.jpg)
+![3](https://user-images.githubusercontent.com/102302310/215639976-3bdb0144-817d-41a1-ac78-7d9a2ccf6398.jpg)
