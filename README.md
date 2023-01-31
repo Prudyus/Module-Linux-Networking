@@ -126,6 +126,9 @@ Client2 > Client1
 
 8. На Server1 налаштувати NATсервіс таким чином, щоб з Client1 та Client2 проходив ping в мережу Інтернет
 
+
+![4](https://user-images.githubusercontent.com/102302310/215640903-ff30a1c3-0de2-4e10-a381-33d52153193e.jpg)
+![5](https://user-images.githubusercontent.com/102302310/215640905-ebc1fcad-1716-414d-90cd-850719b8f679.jpg)
 ![1](https://user-images.githubusercontent.com/102302310/215639969-dd107018-dedd-405a-8691-41ad830800ec.jpg)
 ![2](https://user-images.githubusercontent.com/102302310/215639975-2ea843f2-66e4-40ed-833a-5e4a05b91461.jpg)
 ![3](https://user-images.githubusercontent.com/102302310/215639976-3bdb0144-817d-41a1-ac78-7d9a2ccf6398.jpg)
