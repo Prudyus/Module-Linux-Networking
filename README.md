@@ -68,9 +68,9 @@ Client2 > 172.17.26.1 (через Server1 )
 
 Client2 > 172.17.36.1 ( через  Net 4 )
 
-  ![172 17 36 1 cat](https://user-images.githubusercontent.com/102302310/215365663-85a572a5-a969-4766-ac3b-367a0b8dd378.jpg)
+![172 17 36 1 cat](https://user-images.githubusercontent.com/102302310/215365663-85a572a5-a969-4766-ac3b-367a0b8dd378.jpg)
 
-  ![172 36 1 1](https://user-images.githubusercontent.com/102302310/215365694-8a0c1825-64fc-45b7-883f-5edaa06f240e.jpg)
+![172 36 1 1](https://user-images.githubusercontent.com/102302310/215365694-8a0c1825-64fc-45b7-883f-5edaa06f240e.jpg)
 
 5.Розрахувати спільну адресу та маску (summarizing) адрес 172.17.26.1/24 та 172.17.36.1/24, при чому префікс має бути максимально можливим. 
                 
@@ -100,6 +100,7 @@ ___________________________________________________
 6. Налаштувати SSH сервіс таким чином, щоб Client_1 та Client_2 могли підключатись до Server_1 та один до одного.
 
 Client1 > Server1 
+
 ![SSH CL1 to SERVER1](https://user-images.githubusercontent.com/102302310/215547901-9c1c98e1-0f85-4d48-9d04-7531a67425cc.png)
 
 Client2 > Server1
@@ -118,11 +119,13 @@ Client2 > Client1
 ![111111](https://user-images.githubusercontent.com/102302310/215631434-5a0e3967-b7db-4052-9634-4377f382b4bd.jpg)
 
 • З Client_2 на 172.17.26.1 ping проходив, а на 172.17.36.1 не проходив
+
 ![ping input 172 17 0 0](https://user-images.githubusercontent.com/102302310/215633761-b28890ee-1ce4-42ae-96e1-45dd3fd2f3d5.jpg)
 ![iptables](https://user-images.githubusercontent.com/102302310/215634466-86843776-8c81-4c70-898f-8d3dfafe171c.jpg)
 ![iptables2](https://user-images.githubusercontent.com/102302310/215634470-408380a8-4d74-4f70-80ef-3c1390b9ab12.jpg)
 
 8. На Server1 налаштувати NATсервіс таким чином, щоб з Client1 та Client2 проходив ping в мережу Інтернет
+
 ![1](https://user-images.githubusercontent.com/102302310/215639969-dd107018-dedd-405a-8691-41ad830800ec.jpg)
 ![2](https://user-images.githubusercontent.com/102302310/215639975-2ea843f2-66e4-40ed-833a-5e4a05b91461.jpg)
 ![3](https://user-images.githubusercontent.com/102302310/215639976-3bdb0144-817d-41a1-ac78-7d9a2ccf6398.jpg)
