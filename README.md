@@ -2,6 +2,7 @@
 # Module – Linux Networkin
   The practical part of the Linux Networking module involves creating a network using the 
 Virtual Box network, which is shown in Figure 1
+![Снимок экрана (448)](https://user-images.githubusercontent.com/102302310/215271673-9657b562-1299-4046-bfbf-94a6bae76c3d.png)
 
 
 # Solutions 
