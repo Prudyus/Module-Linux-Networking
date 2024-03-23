@@ -2,7 +2,49 @@
 # Module – Linux Networkin
   The practical part of the Linux Networking module involves creating a network using the 
 Virtual Box network, which is shown in Figure 1
-![Снимок экрана (448)](https://user-images.githubusercontent.com/102302310/215271673-9657b562-1299-4046-bfbf-94a6bae76c3d.png)
+![Screenshot 2024-03-22 220131](https://github.com/Prudyus/Module-Linux-Networking/assets/102302310/dc0c3180-5dc6-44a4-8eda-d3678b24a0e2) 
+   Figure 1
+
+Host is a computer that runs the Virtual Box;
+Server_1 is a virtual machine on which Linux is deployed. Int1 of this machine in 
+in the "Network Bridge" mode is connected to the Net1 network, that is, it is located in the address space of the home network. 
+address space of the home network. The IP address of Int1 is set statically according to the 
+address space, for example 192.168.1.200/24. The Int2 and Int3 interfaces are respectively 
+are connected in the "Internal network" mode to the Net2 and Net3 networks.
+Client_1 and Client_2 - Virtual machines on which the Linux OS is deployed (preferably 
+different distributions, such as Ubuntu and CentOS). The interfaces are connected in the 
+"Internal network" mode to the Net2, Net3 and Net4 networks as shown in Figure 1.
+The address of the Net2 network is 10.Y.D.0/24, where Y is the last two digits of your year of 
+of birth, D - date of birth. 
+The Net3 network address is 10.M.Y.0/24, where M is the month of birth.
+The address of the Net4 network is 172.16.D.0/24.
+Attention: If the address space of Net2, Net3 or Net4 overlaps with the address space of Net1 
+address space of Net1, you can change the corresponding address at your own discretion.
+1. On Server_1, configure static addresses on all interfaces.
+2. On Server_1, configure a DHCP service that will configure the addresses Int1 
+Client_1 and Client_2 addresses.
+3. Using the ping and traceroute commands, check the connection between the virtual machines 
+virtual machines. Explain the result.
+Attention: In order for packets to be sent from Client_1 and Client_2 to the Internet 
+(more precisely, to return from the Internet to Client_1 and Client_2) on the Wi-Fi Router, you need to 
+configure static routes for the Net2 and Net3 networks. If this is not possible 
+set the Int1 interface on Server_1 to NAT mode.
+4. On the virtual interface lo Client_1, assign two IP addresses according to the following 
+rule: 172.17.D+10.1/24 and 172.17.D+20.1/24. Configure the routing 
+in such a way that traffic from Client_2 to 172.17.D+10.1 passes through Server_1, and to 
+172.17.D+20.1 through Net4. Use traceroute to test this.
+5. Calculate the shared address and summary mask of addresses 172.17.D+10.1 and 
+172.17.D+20.1, and the prefix should be as long as possible. Delete 
+the routes set in the previous step and replace them with the merged route 
+route that should go through Server_1.
+6. Configure the SSH service so that Client_1 and Client_2 can
+connect to Server_1 and to each other. 
+7. Configure the firewall on Server_1 as follows:
+- SSH connection from Client_1 is allowed and denied from Client_2
+- The ping from Client_2 to 172.17.D+10.1 passed, but did not pass to 172.17.D+20.1
+8. If routing was configured in step 3 for Client_1 and Client_2 to access the Internet 
+to the Internet, delete the corresponding entries. On Server_1, configure the NAT
+service so that pings to the Internet can be made from Client_1 and Client_2
 
 
 # Solutions 
