@@ -1,3 +1,10 @@
+# EPAM University Programs DevOps external cours
+# Module – Linux Networkin
+  The practical part of the Linux Networking module involves creating a network using the 
+Virtual Box network, which is shown in Figure 1
+
+
+# Solutions 
 # Module-Linux-Networking
 EPAM University Programs DevOps external course Module – Linux Networking
 
